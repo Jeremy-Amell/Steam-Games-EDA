@@ -12,7 +12,7 @@
 **[__Future Areas of Study__](#future-areas-of-study)**  
 
 # Project Overview
-Steam is a web based and app that provides a destination for buying, playing, discussing, and creating video games for the PC and Steam Deck. Steam's library consists of over 100k games from AAA to indie and everything in between. Additionally, Steam provides a service for PC software to include but not limited to:
+Steam is a web based service and application that provides a destination for buying, playing, discussing, and creating video games for the PC and Steam Deck. Steam's library consists of over 100k games from AAA to indie and everything in between. Additionally, Steam provides a service for PC software to include but not limited to:
 image editing, video editing, and music production. Steam is a service that allows an individual to meet new people, join groups, form clans, chat in-game, and much more with nearly 100 million users worldwide. Additionally, no subscription is required and allows you purchase games and software on your PC.
 
 The intent of the project is to perform EDA on a data set created using Steam APIs from a data analyst. Furthermore, exploring the data will allow initial project intentions to expand as analyis is conducted. 
@@ -63,3 +63,4 @@ I decided to approach the data comparison based on the Top 25 and Bottom 25 Game
 # Contextual Visualizations
 What visualizations are needed to understand the data?
 
+![Descriptive Statistics](C:\Users\jerem\Desktop\DAI\daimil10\projects\Steam-Games-EDA\images\descriptive_statistics_for_metacritc_reviewer_ratings_and_positivity_ratio.png)
