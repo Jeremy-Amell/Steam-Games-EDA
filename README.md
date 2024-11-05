@@ -64,5 +64,19 @@ I decided to approach the data comparison based on the Top 25 and Bottom 25 Game
 # Contextual Visualizations
 What visualizations are needed to understand the data?
 
+Below is a Descriptive Statistics Chart that provides basic statistical information. We are able to see the values associated with statistical information related to the metacrictic ratings, reviewer ratings, and positivity ratios for our cleaned data frame.
+Of note, we can see that there are some positivity ratios well beyond several standard deviations from the mean.
 
 ![Descriptive Statistics](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/descriptive_statistics_for_metacritc_reviewer_ratings_and_positivity_ratio.png)
+
+Furthermore, we can see distribution charts of the metacritic ratings, reviewer ratings, and postivity ratios of our cleaned data frame. 
+
+![]
+
+
+
+
+
+The following visualizations provide a better understanding of the top and bottom 25 games from our data set in relation to metacritic and reviewer ratings. 
+
+![]
