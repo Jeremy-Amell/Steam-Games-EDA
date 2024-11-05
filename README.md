@@ -91,4 +91,10 @@ This EDA led to the analysis of the positivity ratios in relation to the top and
 
 The following visualizations portray the positivity ratios independently.
 
-![Positivity Ratio of the Top 25 Metacritic Ratings Games]()
+![Positivity Ratio of the Top 25 Metacritic Ratings Games](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/positivity_ratio_of_the_top_25_metacritic_ratings_games.png)
+
+![Positivity Ratio of the Bottom 25 Metacritic Ratings Games](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/positivity_ratio_of_the_bottom__25_metacritic_ratings_games.png)
+
+The following visualizations overlay the Metacritic rating with the positivity ratio, which yields a clear picture of outliers in both the top and bottom 25 games. 
+
+
