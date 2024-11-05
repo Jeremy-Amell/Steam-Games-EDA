@@ -20,7 +20,7 @@ The intent of the project is to perform EDA on a data set created using Steam AP
 # Project Proposal
 The approach for EDA on a Steam Games data set is to assess and find interesting correlations between video games and associated data. Initial review of the Steam Games CSV from Kaggle led to an approach to find a correlation of video game success related to review ratings (Metacritic Rating and Reviewer Rating). Additionally, the initial approach was to correlate these findings with data associated with a user completing the game. Furthermore, these findings were to be correlated with game tag categories. 
 
-Further assessment of the data reveled that data associated with time to complete the game did not connect to how many users did in fact complete the game and any additional trophies. Additionally, cleaning of the Game Tags associated with each game revealed through research that game tags are numerous, weighted with an ordered process based on Steam Game guidelines, and would yield a skewed analysis of that portion of the data. 
+Further assessment of the data revealed that data associated with time to complete the game did not connect to how many users did in fact complete the game and any additional trophies. Additionally, cleaning of the Game Tags associated with each game revealed through research that game tags are numerous, weighted with an ordered process based on Steam Game guidelines, and would yield a skewed analysis of that portion of the data. 
 
 These findings in initial EDA led to the final approach for this project. I would compare Metacritic Ratings, Reviewer Ratings, and Positivity Ratios. Did the higher or lower Metacritic Rating correlate with the Reviewer Ratings and Positivity Ratios? 
 
@@ -97,4 +97,19 @@ The following visualizations portray the positivity ratios independently.
 
 The following visualizations overlay the Metacritic rating with the positivity ratio, which yields a clear picture of outliers in both the top and bottom 25 games. 
 
+![Positivity Ratio of Top 25 Metacritic Ratings Games & Metacritic Rating](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/positivity_ratio_of_top_25_metacritic_ratings_games_and_metacritic_rating_overlay.png)
 
+![Positivity Ratio of Bottom 25 Metacritic Ratings Games & Metacritic Rating](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/positivity_ratio_of_bottom_25_metacritic_ratings_games_and_metacritic_rating_overlay.png)
+
+# Key Insights
+The top and bottom 25 games based on Metacritic and reviewer ratings provided insight into what a user could expect from an experience perspective. However, this data set was reduced down to less than 3k games from 68k due to missing values. Although these games did in fact have high and low ratings, this data set does not include other games of similar ratings. More inclusive data sets and expanding the list beyond 25 will provide a better understanding of quality or poor-quality games based on these parameters. 
+
+However, this data set did yield interesting results. As we can see in the top 25 positivity ratio charts, many of the highest Metacritic rated games had positivity ratios below 20 and even 10. These are still high ratios, meaning 10-20 positive to 1 negative, however, these games are among the highest Metacritic rated. Further insight into the reviewer comment sentiment will produce a better understanding of the quality of the game from the user perspective. 
+
+Conversely, we can see some outliers in the bottom 25 games based on the positivity ratio overlay with Metacritic ratings. Specifically, the games (Shaq Fu: A Legend Reborn, Hello Neighbor, Super Duper Party Pooper, and Hatred) all had positivity ratios above 3. For games having such a low Metacritic review, we would not expect to have 3-1 users have a positive review.
+
+# Recommendations
+Although this analysis can be expanded with more complete data sets, it does yield an good way to search for games that will likely lead to a positive or negative experience. Specifically, games that have a high positivity ratio in conjunction with high Metacritic ratings should be a great experience for the end user if that genre of game is what they like. 
+
+# Future Areas of Study
+I postulate that data sets that have more complete information will yield similar results but for more games. Additionally, conducting EDA on how many of top or bottom games where the user completed the game should yield a better measure of analysis whether the game is good or not. If these data sets are not available, then getting permission from Steam to use their Steam APIs will be necessary to extract the data needed to conduct further analysis. 
