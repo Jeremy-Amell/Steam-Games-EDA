@@ -52,7 +52,6 @@ This data set (steam_games_dataset, AKA steam_games_df) contained 11 columns of 
 **tags:** User tags (features) of the game separated by vertical lines
 
 # Data Cleaning and Transformation
-
 The initial data set (steam_games_df) contained 63,543 rows and 11 columns. The first portion of the data cleaning involved removal of the game 'id', which would not be needed for the EDA. Afterwards, I reduced the 'tags' to only include the first tag listed. Initially I was going to group based on the tag type and perform analysis on these groupings. However, research into how Steam employs tags resulted in a stop on that approach of analysis. In short, tags can be created by developer, however tags can be added by users as well. The tag length on some games can be upwards of 20 plus tags and they are weighted based on a system explained in Steam documentation. This type of EDA would not perform the necessary script required to extract relevant data from the tags. I kept the tag information in the cleaned data frame, however did not use the column data. 
 
 Once the data was cleaned with no ID, removal of any NaN values in the data was the next step. I dropped all rows that had any NaN values for any of the column data entries. This reduced the data frame from 63,543 rows and 11 columns to 2823 rows and 10 columns since the game ID was now gone. Setup was now ready with all 2823 rows having complete data for all 10 columns. From here my approach for the project goal was ready. 
@@ -87,3 +86,9 @@ The following visualizations provide a better understanding of the top and botto
 
 ![Bottom 25 Metacritic Rating Games with Reviewer Scores](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/bottom_25_games_with_lowest_reviewer_ratings_barchart.png)
 
+# Specific Visualizations - Results
+This EDA led to the analysis of the positivity ratios in relation to the top and bottom 25 Metacritic ratings games. This analysis allowed us to confirm that top Metacritic rated games did indeed have positive positivity ratios and, in many cases, high ratios. The same is true for the bottom Metacritic rated games. However, this analysis led to outliers with extremely high positivity ratios in the top rated games and outliers with higher positivity ratings in the bottom rated games than expected. 
+
+The following visualizations portray the positivity ratios independently.
+
+![Positivity Ratio of the Top 25 Metacritic Ratings Games]()
