@@ -29,27 +29,27 @@ The source of the data came from Kaggle Data Sets, specifically https://www.kagg
 
 This data set (steam_games_dataset, AKA steam_games_df) contained 11 columns of data points:  
 
-id: Game ID on steam platform
+**id:** Game ID on steam platform
 
-name: Game name as appears on Steam platform  
+**name:** Game name as appears on Steam platform  
 
-year: Release year  
+**year:** Release year  
 
-metacritic_rating: Metacritic rating (the larger the better)  
+**metacritic_rating:** Metacritic rating (the larger the better)  
 
-reviewer_rating: Game rating given by users on the 0-10 scale (the larger the better)  
+**reviewer_rating:** Game rating given by users on the 0-10 scale (the larger the better)  
 
-positivity_ratio: Number of positive reviews divided by the number of negative reviews  
+**positivity_ratio:** Number of positive reviews divided by the number of negative reviews  
 
-to_beat_main: Time required to beat the main plot of the game    
+**to_beat_main:** Time required to beat the main plot of the game    
 
-to_beat_extra: Time required to beat the main and optional objectives of the game  
+**to_beat_extra:** Time required to beat the main and optional objectives of the game  
 
-to_beat_completionist: Time required to complete every single objective of the game including gathering all collectibles  
+**to_beat_completionist:** Time required to complete every single objective of the game including gathering all collectibles  
 
-extra_content_length: The difference between completionist time and extra time
+**extra_content_length:** The difference between completionist time and extra time
 
-tags: User tags (features) of the game separated by vertical lines
+**tags:** User tags (features) of the game separated by vertical lines
 
 # Data Cleaning and Transformation
 
