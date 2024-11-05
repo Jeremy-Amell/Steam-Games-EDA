@@ -63,4 +63,4 @@ I decided to approach the data comparison based on the Top 25 and Bottom 25 Game
 # Contextual Visualizations
 What visualizations are needed to understand the data?
 
-![Descriptive Statistics](C:\Users\jerem\Desktop\DAI\daimil10\projects\Steam-Games-EDA\images\descriptive_statistics_for_metacritc_reviewer_ratings_and_positivity_ratio.png)
+![Descriptive Statistics](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/descriptive_statistics_for_metacritc_reviewer_ratings_and_positivity_ratio.png)
