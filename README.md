@@ -27,28 +27,29 @@ These findings in initial EDA led to the final approach for this project. I woul
 # Source of Data
 The source of the data came from Kaggle Data Sets, specifically https://www.kaggle.com/datasets/gruffgemini/steam-games-dataset
 
-This data set (steam_games_dataset, AKA steam_games_df) contained 11 columns of data points:
-### id: Game ID on steam platform
+This data set (steam_games_dataset, AKA steam_games_df) contained 11 columns of data points:  
 
-### name: Game name as appears on Steam platform  
+id: Game ID on steam platform
 
-### year: Release year  
+name: Game name as appears on Steam platform  
 
-### metacritic_rating: Metacritic rating (the larger the better)  
+year: Release year  
 
-### reviewer_rating: Game rating given by users on the 0-10 scale (the larger the better)  
+metacritic_rating: Metacritic rating (the larger the better)  
 
-### positivity_ratio: Number of positive reviews divided by the number of negative reviews  
+reviewer_rating: Game rating given by users on the 0-10 scale (the larger the better)  
 
-### to_beat_main: Time required to beat the main plot of the game    
+positivity_ratio: Number of positive reviews divided by the number of negative reviews  
 
-### to_beat_extra: Time required to beat the main and optional objectives of the game  
+to_beat_main: Time required to beat the main plot of the game    
 
-### to_beat_completionist: Time required to complete every single objective of the game including gathering all collectibles  
+to_beat_extra: Time required to beat the main and optional objectives of the game  
 
-### extra_content_length: The difference between completionist time and extra time
+to_beat_completionist: Time required to complete every single objective of the game including gathering all collectibles  
 
-### tags: User tags (features) of the game separated by vertical lines
+extra_content_length: The difference between completionist time and extra time
+
+tags: User tags (features) of the game separated by vertical lines
 
 # Data Cleaning and Transformation
 
@@ -62,5 +63,6 @@ I decided to approach the data comparison based on the Top 25 and Bottom 25 Game
 
 # Contextual Visualizations
 What visualizations are needed to understand the data?
+
 
 ![Descriptive Statistics](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/descriptive_statistics_for_metacritc_reviewer_ratings_and_positivity_ratio.png)
