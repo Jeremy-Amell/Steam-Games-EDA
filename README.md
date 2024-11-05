@@ -1,5 +1,5 @@
 # Steam Games EDA
-![Steam Games](C:/Users/jerem/Desktop/DAI/daimil10/projects/mid_course/visualizations/steam_games_logo.jpg)
+![Steam Games](https://github.com/Jeremy-Amell/Steam-Games-EDA/blob/main/images/steam_games_logo.jpg)
 # Table of Contents
 **[__Project Overview__](#project-overview)**  
 **[__Project Proposal__](#project-proposal)**  
